@@ -57,7 +57,7 @@ public class JavaActivemqApplication {
 		// 消息是否会丢失:Sender发送消息到目标Queue，receiver可以异步接收这个Queue上的消息。Queue上的消息如果暂时没有receiver来取，也不会丢失。
 		// 5
 		// 消息发布接收策略:一对一的消息发布接收策略，一个sender发送的消息，只能有一个receiver接收。receiver接收完后，通知mq服务器已接收，mq服务器对queue里的消息采取删除或其他操作。
-	
-	    // request-response 应答模式 通过queue实现 
+
+		// request-response 应答模式 通过queue实现
 	}
 }
