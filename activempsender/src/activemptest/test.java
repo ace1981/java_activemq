@@ -30,7 +30,7 @@ public class test {
                 //ActiveMQConnection.DEFAULT_USER,
                 //ActiveMQConnection.DEFAULT_PASSWORD,
         		"admin","admin",
-                "tcp://118.190.77.10:61616");
+                "tcp://localhost:61616");
         try {
             // 构造从工厂得到连接对象
             connection = connectionFactory.createConnection();
